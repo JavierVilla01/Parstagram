@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.initialize(
             with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) -> Void in
                 configuration.applicationId = "Parstagram"
-                configuration.server = "https://shrouded-bayou-90288.herokuapp.com/"
+                configuration.server = "https://shrouded-bayou-90288.herokuapp.com/parse"
             })
         )
         
